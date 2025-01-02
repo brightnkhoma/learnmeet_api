@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "cross-env": "^7.0.3",
+    "ts-node": "^10.9.2"
+  },
+  "scripts": {
+    "dev": "cross-env DEBUG=mediasoup:* nodemon index.ts"
+  },
+  "dependencies": {
+    "@types/socket.io": "^3.0.1",
+    "debug": "^4.4.0",
+    "express": "^4.21.2",
+    "mediasoup": "^3.15.2",
+    "nodemon": "^3.1.9",
+    "typescript": "^5.7.2"
+  }
+}
