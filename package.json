@@ -5,7 +5,8 @@
     "ts-node": "^10.9.2"
   },
   "scripts": {
-    "dev": "cross-env DEBUG=mediasoup:* nodemon index.ts"
+    "dev": "node index.ts"
+    
   },
   "dependencies": {
     "@types/socket.io": "^3.0.1",
